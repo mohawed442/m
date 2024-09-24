@@ -131,7 +131,7 @@ body{
 
 /* star landing */
 .into{
-    background-image: url(img/storybehindthemyth_ajaandsalma_hero.jpg);
+    background-image: url(../img/storybehindthemyth_ajaandsalma_hero.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
