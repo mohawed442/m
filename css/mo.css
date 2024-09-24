@@ -1,0 +1,209 @@
+:root{
+    --no: #10cab7;
+}
+
+
+
+*{
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-size:"work sans",sans-serif;
+}
+.hid{
+    background-color: #eee;
+}
+.bot{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+/* اصغر شاشه  */
+@media (min-width:768px) {
+    .hid{
+        width: auto;
+}
+    
+}
+/* شاشه وسط */
+@media (min-width:992px) {
+    .hid{
+        width: auto;
+    }
+    
+}
+/* شاشه كبيره  */
+@media (min-width:1200px) {
+    .hid{
+        width: auto;
+    }
+    
+} 
+/* بدايه العنوان بتاع كل قسم  */
+
+
+.h2mon{
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3;
+    margin: 0;
+
+}
+.h2mon+p{
+    margin: -30px 0 0;
+    font-size: -20px;
+    text-align: center;
+    color: #797979;
+
+}
+@media(max-width :767px){
+    .h2mon{
+        font-size: 60px;
+    }
+    .h2mon+p{
+        margin-top: -20px;
+    }
+}
+
+/* نهايه العنوان بتاع كل قسم  */
+
+/* star header  */
+.hid{
+    
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    width: 40px;
+    height: 45px;
+}
+.hid .links ul{
+    text-align: end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:#eee;
+    position: absolute;
+    right: 0;
+    min-width:200px;
+    top:calc(100% + 15px);
+    display: none;
+    z-index: 3  ;
+}
+.hid .links ul::before{
+    content: "";
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent #e6e6e6 transparent;
+    position: absolute;
+    right:-2px;
+    top:-29px;
+
+}
+.hid .links:hover ul{
+    display: block;
+ 
+}
+.hid .links ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+      
+}
+.hid .links ul li a:hover{
+    padding-right: 35px;
+}
+/* end header */
+
+/* star landing */
+.into{
+    background-image: url(/img/storybehindthemyth_ajaandsalma_hero.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+}
+.into .textinto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+
+
+}
+.into .textinto h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--no);
+    
+}
+.into .textinto p{
+    font-size: 19px;
+    line-height: 1.8;
+    
+
+
+}
+
+/* and landing */
+.three{ 
+padding-top: 60px;
+padding-bottom: 60px;
+background-color:#f6f6f6;
+
+}
+.three .con{
+    /* width: 320px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 20px;
+
+}
+.three .con .one {
+    padding: 20px;
+    text-align: center;
+
+}
+.three .con .one i{
+color: var(--no);  
+font-size: 30px;
+
+
+}
+.three .con .one h3{
+    font-weight: 800;
+
+
+}
+.three .con .one p{
+    line-height: 1.4;
+    color: #777;
+
+}
+.headertop{
+    
+}
+
+.headertop .mon{
+
+}
+
+
+
